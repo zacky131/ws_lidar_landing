@@ -1,0 +1,31 @@
+running egg_info
+writing ../../build/px4_keyboard_control/px4_keyboard_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/px4_keyboard_control/px4_keyboard_control.egg-info/dependency_links.txt
+writing entry points to ../../build/px4_keyboard_control/px4_keyboard_control.egg-info/entry_points.txt
+writing requirements to ../../build/px4_keyboard_control/px4_keyboard_control.egg-info/requires.txt
+writing top-level names to ../../build/px4_keyboard_control/px4_keyboard_control.egg-info/top_level.txt
+reading manifest file '../../build/px4_keyboard_control/px4_keyboard_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/px4_keyboard_control/px4_keyboard_control.egg-info/SOURCES.txt'
+running build
+running build_py
+copying px4_keyboard_control/keyboard.py -> /home/zacky/ws_lidar_landing/build/px4_keyboard_control/build/lib/px4_keyboard_control
+copying px4_keyboard_control/servo_downward.py -> /home/zacky/ws_lidar_landing/build/px4_keyboard_control/build/lib/px4_keyboard_control
+copying px4_keyboard_control/__init__.py -> /home/zacky/ws_lidar_landing/build/px4_keyboard_control/build/lib/px4_keyboard_control
+copying px4_keyboard_control/offboard.py -> /home/zacky/ws_lidar_landing/build/px4_keyboard_control/build/lib/px4_keyboard_control
+running install
+running install_lib
+copying /home/zacky/ws_lidar_landing/build/px4_keyboard_control/build/lib/px4_keyboard_control/keyboard.py -> /home/zacky/ws_lidar_landing/install/px4_keyboard_control/lib/python3.10/site-packages/px4_keyboard_control
+copying /home/zacky/ws_lidar_landing/build/px4_keyboard_control/build/lib/px4_keyboard_control/servo_downward.py -> /home/zacky/ws_lidar_landing/install/px4_keyboard_control/lib/python3.10/site-packages/px4_keyboard_control
+byte-compiling /home/zacky/ws_lidar_landing/install/px4_keyboard_control/lib/python3.10/site-packages/px4_keyboard_control/keyboard.py to keyboard.cpython-310.pyc
+byte-compiling /home/zacky/ws_lidar_landing/install/px4_keyboard_control/lib/python3.10/site-packages/px4_keyboard_control/servo_downward.py to servo_downward.cpython-310.pyc
+running install_data
+copying resource/px4_keyboard_control -> /home/zacky/ws_lidar_landing/install/px4_keyboard_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/zacky/ws_lidar_landing/install/px4_keyboard_control/share/px4_keyboard_control
+running install_egg_info
+removing '/home/zacky/ws_lidar_landing/install/px4_keyboard_control/lib/python3.10/site-packages/px4_keyboard_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/px4_keyboard_control/px4_keyboard_control.egg-info to /home/zacky/ws_lidar_landing/install/px4_keyboard_control/lib/python3.10/site-packages/px4_keyboard_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing px4_keyboard_handler script to /home/zacky/ws_lidar_landing/install/px4_keyboard_control/lib/px4_keyboard_control
+Installing px4_offboard_control script to /home/zacky/ws_lidar_landing/install/px4_keyboard_control/lib/px4_keyboard_control
+Installing px4_servo_control script to /home/zacky/ws_lidar_landing/install/px4_keyboard_control/lib/px4_keyboard_control
+writing list of installed files to '/home/zacky/ws_lidar_landing/build/px4_keyboard_control/install.log'

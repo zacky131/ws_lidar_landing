@@ -1,0 +1,4 @@
+[console_scripts]
+px4_keyboard_handler = px4_keyboard_control.keyboard:main
+px4_offboard_control = px4_keyboard_control.offboard:main
+px4_servo_control = px4_keyboard_control.servo_downward:main

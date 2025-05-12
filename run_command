@@ -31,7 +31,22 @@ rviz2
 open config at:
 /home/zacky/ws_glim/src/glim_ros2/rviz
 
-Setup static IP for wifi:
+run offboard control
+
+Connect to the drone:
+MicroXRCEAgent udp4 -p 8888
+
+First, in one terminal, run the offboard controller node by:
+ros2 run px4_keyboard_control px4_keyboard_handler
+
+and in the other terminal, run the keyboard input handler node by:
+ros2 run px4_keyboard_control px4_offboard_control
+
+and in the other terminal, run the servo input handler node by:
+ros2 run px4_keyboard_control px4_servo_control
+
+
+
 
 
 optional:

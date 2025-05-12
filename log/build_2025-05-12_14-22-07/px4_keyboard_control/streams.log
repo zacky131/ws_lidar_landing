@@ -1,0 +1,31 @@
+[0.804s] Invoking command in '/home/zacky/ws_lidar_landing/src/px4_keyboard_control': PYTHONPATH=/home/zacky/ws_lidar_landing/build/px4_keyboard_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zacky/ws_lidar_landing/install/px4_keyboard_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_keyboard_control build --build-base /home/zacky/ws_lidar_landing/build/px4_keyboard_control/build install --record /home/zacky/ws_lidar_landing/build/px4_keyboard_control/install.log --single-version-externally-managed install_data
+[1.051s] running egg_info
+[1.068s] writing ../../build/px4_keyboard_control/px4_keyboard_control.egg-info/PKG-INFO
+[1.068s] writing dependency_links to ../../build/px4_keyboard_control/px4_keyboard_control.egg-info/dependency_links.txt
+[1.068s] writing entry points to ../../build/px4_keyboard_control/px4_keyboard_control.egg-info/entry_points.txt
+[1.069s] writing requirements to ../../build/px4_keyboard_control/px4_keyboard_control.egg-info/requires.txt
+[1.069s] writing top-level names to ../../build/px4_keyboard_control/px4_keyboard_control.egg-info/top_level.txt
+[1.104s] reading manifest file '../../build/px4_keyboard_control/px4_keyboard_control.egg-info/SOURCES.txt'
+[1.105s] writing manifest file '../../build/px4_keyboard_control/px4_keyboard_control.egg-info/SOURCES.txt'
+[1.105s] running build
+[1.105s] running build_py
+[1.105s] copying px4_keyboard_control/keyboard.py -> /home/zacky/ws_lidar_landing/build/px4_keyboard_control/build/lib/px4_keyboard_control
+[1.105s] copying px4_keyboard_control/servo_downward.py -> /home/zacky/ws_lidar_landing/build/px4_keyboard_control/build/lib/px4_keyboard_control
+[1.105s] copying px4_keyboard_control/__init__.py -> /home/zacky/ws_lidar_landing/build/px4_keyboard_control/build/lib/px4_keyboard_control
+[1.105s] copying px4_keyboard_control/offboard.py -> /home/zacky/ws_lidar_landing/build/px4_keyboard_control/build/lib/px4_keyboard_control
+[1.106s] running install
+[1.110s] running install_lib
+[1.128s] copying /home/zacky/ws_lidar_landing/build/px4_keyboard_control/build/lib/px4_keyboard_control/keyboard.py -> /home/zacky/ws_lidar_landing/install/px4_keyboard_control/lib/python3.10/site-packages/px4_keyboard_control
+[1.129s] byte-compiling /home/zacky/ws_lidar_landing/install/px4_keyboard_control/lib/python3.10/site-packages/px4_keyboard_control/keyboard.py to keyboard.cpython-310.pyc
+[1.130s] running install_data
+[1.130s] copying resource/px4_keyboard_control -> /home/zacky/ws_lidar_landing/install/px4_keyboard_control/share/ament_index/resource_index/packages
+[1.130s] copying package.xml -> /home/zacky/ws_lidar_landing/install/px4_keyboard_control/share/px4_keyboard_control
+[1.130s] running install_egg_info
+[1.149s] removing '/home/zacky/ws_lidar_landing/install/px4_keyboard_control/lib/python3.10/site-packages/px4_keyboard_control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.149s] Copying ../../build/px4_keyboard_control/px4_keyboard_control.egg-info to /home/zacky/ws_lidar_landing/install/px4_keyboard_control/lib/python3.10/site-packages/px4_keyboard_control-0.0.0-py3.10.egg-info
+[1.150s] running install_scripts
+[1.298s] Installing px4_keyboard_handler script to /home/zacky/ws_lidar_landing/install/px4_keyboard_control/lib/px4_keyboard_control
+[1.298s] Installing px4_offboard_control script to /home/zacky/ws_lidar_landing/install/px4_keyboard_control/lib/px4_keyboard_control
+[1.298s] Installing px4_servo_control script to /home/zacky/ws_lidar_landing/install/px4_keyboard_control/lib/px4_keyboard_control
+[1.298s] writing list of installed files to '/home/zacky/ws_lidar_landing/build/px4_keyboard_control/install.log'
+[1.322s] Invoked command in '/home/zacky/ws_lidar_landing/src/px4_keyboard_control' returned '0': PYTHONPATH=/home/zacky/ws_lidar_landing/build/px4_keyboard_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zacky/ws_lidar_landing/install/px4_keyboard_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_keyboard_control build --build-base /home/zacky/ws_lidar_landing/build/px4_keyboard_control/build install --record /home/zacky/ws_lidar_landing/build/px4_keyboard_control/install.log --single-version-externally-managed install_data
