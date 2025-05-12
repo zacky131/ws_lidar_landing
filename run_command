@@ -1,0 +1,39 @@
+
+Run Livox 360:
+cd ws_livox
+rs
+ros2 launch livox_ros_driver2 rviz_MID360_launch.py
+
+
+Run GLIM:
+cd ws_glim
+rs
+ros2 run glim_ros glim_rosnode --ros-args -p config_path:=$(realpath ~/ws_glim/src/glim/config)
+
+Run Offboard:
+terminal1:
+ros2 run px4_keyboard_control px4_keyboard_handler
+
+terminal2:
+ros2 run px4_keyboard_control px4_offboard_control
+
+Run ROSbag:
+cd ws_lidar_landing && ros2 bag record -a
+
+
+play rosbag:
+cd ws_lidar_landing
+ros2 bag play rosbag2_2025_04_21-11_24_17
+
+
+run RVIZ in companion computer
+rviz2
+open config at:
+/home/zacky/ws_glim/src/glim_ros2/rviz
+
+Setup static IP for wifi:
+
+
+optional:
+Controlling servo:
+cd ~/ws_lidar_landing && python read_write_servo.py
