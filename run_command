@@ -1,3 +1,24 @@
+Offboard setup:
+- check both IP address 
+- setup SSH connection:
+	ssh orinnx@192.168.8.128
+	password: 1
+- check serial comm on jetson:
+	ls /dev/tty* or sudo dmesg | grep tty
+	# example the output is USB0, then:
+	sudo chmod 666 /dev/ttyUSB0
+- Setup in Qground control:
+	Vehicle Setup => Parameters => UXRCE_DDS_CFG => TELEM 3
+	Vehicle Setup => Parameters => SER_TEL3_BAUD ==> 921600 8N1
+- Run MicroXRCE on jetson:
+	MicroXRCEAgent serial --dev /dev/ttyUSB0 -b 921600 
+
+- Check ros2 topic on laptop:
+	ros2 topic list 
+	
+
+
+
 
 Run Livox 360:
 cd ws_livox
@@ -32,10 +53,6 @@ open config at:
 /home/zacky/ws_glim/src/glim_ros2/rviz
 
 run offboard control
-
-Connect to the drone:
-MicroXRCEAgent udp4 -p 8888
-
 First, in one terminal, run the offboard controller node by:
 ros2 run px4_keyboard_control px4_keyboard_handler
 
@@ -44,9 +61,6 @@ ros2 run px4_keyboard_control px4_offboard_control
 
 and in the other terminal, run the servo input handler node by:
 ros2 run px4_keyboard_control px4_servo_control
-
-
-
 
 
 optional:
